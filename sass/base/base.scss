@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+$bp-xlarge: 1200px;
+$bp-large: 992px;
+$bp-medium: 768px;
+$bp-small: 576px;
+
+p {
+  margin-bottom: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
