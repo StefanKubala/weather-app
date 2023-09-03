@@ -16,6 +16,15 @@ p {
 }
 
 html {
+  font-family: sans-serif;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
