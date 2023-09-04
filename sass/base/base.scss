@@ -19,6 +19,10 @@ html {
   font-family: sans-serif;
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 59%;
+  }
 }
 
 body {
@@ -27,4 +31,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: $bp-small) {
+    height: auto;
+  }
 }
